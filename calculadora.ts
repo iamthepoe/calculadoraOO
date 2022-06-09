@@ -22,8 +22,8 @@ class Calculadora{
 
     static Tabuada(x: number): number[]{
         let values: number[] = [];
-        for (let index = 0; index <=10; index++) {
-            values.push(x*(index+1));
+        for (let index = 1; index <=10; index++) {
+            values.push(x*(index));
         }
         return values;
     }
@@ -44,4 +44,3 @@ class Calculadora{
         return (x<0);
     }
 }
-
